@@ -1,4 +1,4 @@
-# Natural Language to SQL (NL2SQL) Project
+# Text to SQL Project
 
 ## Overview
 This project demonstrates the implementation of a **Natural Language to SQL (NL2SQL)** system, allowing users to input natural language queries and receive SQL commands to retrieve data from a database. The project uses the [MySQL Sample Database](https://www.mysqltutorial.org/getting-started-with-mysql/mysql-sample-database/) for testing and validation.
