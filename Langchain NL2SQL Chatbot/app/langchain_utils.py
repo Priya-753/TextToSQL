@@ -31,7 +31,7 @@ from prompts import final_prompt, answer_prompt
 import streamlit as st
 
 def get_llm():
-    llm = ChatOpenAI(model="gpt-4o", temperature=0)
+    llm = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
     return llm
 
 @st.cache_resource
