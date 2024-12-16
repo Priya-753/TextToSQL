@@ -5,6 +5,9 @@ This project demonstrates the implementation of a **Natural Language to SQL (NL2
 
 The foundation of the system is built on **GPT-3.5-turbo**, a state-of-the-art natural language model, which is fine-tuned and customized to achieve better accuracy in SQL generation. The system includes features like **Few-Shot Learning**, **Dynamic Example and Table Selection**, and **Memory-Enabled Conversations** for a seamless user experience.
 
+## Demo Video
+[Watch the demo](./assets/TextToSQLDemo.mov)
+
 ## Features
 ### 1. **Building a Basic NL2SQL Model**
 - The system translates natural language queries into SQL commands using the GPT-3.5-turbo model.
@@ -44,4 +47,5 @@ The foundation of the system is built on **GPT-3.5-turbo**, a state-of-the-art n
 ## Run
 ```bash
    streamlit run ./Langchain\ NL2SQL\ Chatbot/app/main.py
-
+```
+The logs are collected in crew.log. The ER diagram of the database used is present in the assets folder.
